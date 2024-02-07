@@ -26,6 +26,7 @@ public class Nested_switch {
                     default:
                         System.out.println("No department entered");
                 }
+                break;
             default:
                 System.out.println("Enter correct empID");
         }
