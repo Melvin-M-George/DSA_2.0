@@ -18,8 +18,12 @@ public class Functions {
 
 //        String message = greet();
 //        System.out.println(message);
-        int ans = sum3(5,10);
-        System.out.println(ans);
+//        int ans = sum3(5,10);
+//        System.out.println(ans);
+
+
+        String greet = myGreet("Melvin");
+        System.out.println(greet);
     }
 
     static void sum(){
@@ -50,6 +54,11 @@ public class Functions {
 
     static int sum3(int a, int b){
         return a + b;
+    }
+
+    static String myGreet(String name){
+        String message = "Hi " + name;
+        return message;
     }
 
 
