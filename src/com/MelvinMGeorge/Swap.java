@@ -6,6 +6,7 @@ public class Swap {
 //        int temp = a;
 //        a = b;
 //        b = temp;
+
         int a,b;
         swap(10,20);
         System.out.println(a+ " " + b);
