@@ -7,9 +7,16 @@ public class Swap {
 //        a = b;
 //        b = temp;
 
-        int a,b;
-        swap(10,20);
-        System.out.println(a+ " " + b);
+//        swap(10,20);
+//        System.out.println(a+ " " + b);
+
+        String name = "Melvin";
+        changeName(name);
+        System.out.println(name);
+    }
+
+    static void changeName(String name) {
+        name = "shinto";
     }
 
     static void swap(int a, int b){
