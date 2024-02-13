@@ -9,7 +9,7 @@ public class VarArgs {
     }
 
     static void fun(int ...c){
-        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(c));
     }
 
 
