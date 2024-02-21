@@ -3,7 +3,7 @@ package com.MelvinMGeorge;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MultiDimeArrays {
+public class MultiDimArrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         /*
